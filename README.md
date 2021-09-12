@@ -52,10 +52,10 @@ int gcd(int a,int b)
   {
     while(b!=0)
     {
-      int temp
+      int temp;
       temp=b;
       b=a%b;
-    	a=temp;
+      a=temp;
     }
     return a;
   }	
