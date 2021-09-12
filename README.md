@@ -43,3 +43,21 @@ int gcd(int a,int b)
   }
 }
 ```
+-------
+```c++
+// Third solution
+int gcd(int a,int b)
+{
+  while(a!=0&&b!=0)
+  {
+    while(b!=0)
+    {
+      int temp
+			temp=b;
+      b=a%b;
+    	a=temp;
+		}
+		return a;
+	}	
+}
+```
